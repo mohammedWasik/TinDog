@@ -1,0 +1,152 @@
+body {
+  font-family: "Montserrat";
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+h2 {
+  font-size: 2.5rem;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.main-heading {
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+  padding-left: 0;
+}
+.nav-items {
+  padding: 0 15px;
+}
+.nav-link {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #fff;
+}
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.image-iphone {
+  position: absolute;
+  transform: rotate(25deg);
+  right: 30%;
+  width: 60%;
+}
+
+/* feature section */
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  text-align: center;
+  line-height: 1.5;
+  z-index: 1;
+  position: relative;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.feature-icon {
+  color: #ff8a4c;
+  margin-bottom: 1rem;
+}
+.feature-icon:hover {
+  color: #ff4c68;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #ff8a4c;
+  color: #fff;
+  position: relative;
+}
+
+.testimonial-image {
+  border-radius: 50%;
+  margin: 10px auto;
+  width: 15%;
+  display: block;
+}
+
+#press {
+  background-color: #ff8a4c;
+  text-align: center;
+  padding-bottom: 5%;
+}
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.price-button {
+  width: 100%;
+}
+
+#pricing {
+  padding: 80px;
+  text-align: center;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+#cta {
+  padding: 7% 15%;
+  background-color: #ff4c68;
+  text-align: center;
+  color: #fff;
+}
+#cta h3 {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+@media (max-width: 1008px) {
+  #title {
+    text-align: center;
+  }
+  .image-iphone {
+    position: static;
+    transform: rotate(0);
+  }
+}
